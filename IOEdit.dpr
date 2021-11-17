@@ -4,15 +4,15 @@ uses
   Forms, Windows, SysUtils, Dialogs,
   uMainForm in 'uMainForm.pas' {MainForm},
   uIOClasses in 'uIOClasses.pas',
-  uProcessor in '..\shared\uProcessor.pas',
-  uAssembler in '..\shared\uAssembler.pas',
-  uResourceStrings in '..\shared\uResourceStrings.pas',
-  uASMProgress in '..\shared\uASMProgress.pas' {ASMProgressForm},
-  uTimer in '..\shared\uTimer.pas',
-  uEditForm in '..\shared\uEditForm.pas' {EditForm},
-  uView in '..\shared\uView.pas',
+  uProcessor in 'shared\uProcessor.pas',
+  uAssembler in 'shared\uAssembler.pas',
+  uResourceStrings in 'shared\uResourceStrings.pas',
+  uASMProgress in 'shared\uASMProgress.pas' {ASMProgressForm},
+  uTimer in 'shared\uTimer.pas',
+  uEditForm in 'shared\uEditForm.pas' {EditForm},
+  uView in 'shared\uView.pas',
   uInfoForm in 'uInfoForm.pas' {InfoForm},
-  uFileVersion in '..\shared\uFileVersion.pas';
+  uFileVersion in 'shared\uFileVersion.pas';
 
 {$R *.res}
 
